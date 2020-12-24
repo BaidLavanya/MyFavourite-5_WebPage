@@ -1,0 +1,198 @@
+.menu{
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    z-index: 10;
+    cursor: pointer;
+    background-color:cyan;
+    width: 100%;
+    height: 50px;
+}
+
+.links{
+    display:inline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: #370617;
+    font-size: 27px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+body{
+    margin:0;
+    padding-top: 800px;
+}
+
+#welcome{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    height: 800px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: table;
+    overflow: hidden;
+    background: linear-gradient(#FFEA00 0%, #FF0A54 100%);
+    z-index: 9;
+}
+
+.parallax-inner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#pic{
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+}
+
+h1{
+    color: #4D194D;
+    font-size: 40px;
+      font-family: 'Cormorant Garamond', serif;
+}
+
+#name{
+    font-size: 50px;
+    color: #4D194D;
+    font-family: 'Cormorant Garamond', serif;
+ 
+    
+}
+
+h2{
+    font-size: 40px;
+    color: #ffd166;
+    font-family: 'Dancing Script', cursive;
+}
+
+#intro{
+    color: #370617;
+}
+
+#about{
+    text-align: center;
+    background-color: beige;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+p{
+    font-size: 20px;
+    color: #370617;
+    font-family: 'Lobster Two', cursive;
+    word-spacing: 8px;
+    
+}
+
+#about1{
+
+    color: #4D194D;
+    font-size: 40px;
+      font-family: 'Cormorant Garamond', serif;
+
+}
+
+#favBook1{
+    color: #4D194D;
+    font-size: 30px;
+      font-family: 'Cormorant Garamond', serif;
+}
+
+#name1{
+     color: #4D194D;
+    font-size: 40px;
+      font-family: 'Cormorant Garamond', serif;
+    
+}
+
+#favBook{
+    text-align:center;
+    background-color: beige;
+    margin-bottom: 100px;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+}
+
+#book1{
+   
+    text-decoration: none;
+}
+
+.links1{
+    text-decoration: none;
+    color: #370617;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.links1:hover{
+    font-size: 30px;
+    color: crimson;
+}
+
+h3{
+    color: #4D194D;
+    font-size: 30px;
+      font-family: 'Cormorant Garamond', serif;
+}
+
+#ata{
+    text-align: center;
+    background-color: beige;
+    margin-bottom: 100px;
+    
+}
+
+#otherBooks{
+    text-align: center;
+    background-color: beige;
+    margin-bottom: 100px;
+    
+}
+
+img{
+    transition: transform .2s;
+    margin-right: 25px;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+
+.line{
+    width: 70px;
+    background-color: black;
+    height: 7px;
+    margin: 8px auto;
+}
+
+#contact{
+    text-align: center;
+    background-color: beige;
+    margin-bottom: 100px;
+    
+}
+
+.contact_1 h3{
+   display: inline;
+}
+
+.contact_1 a{
+    text-decoration: none;
+}
